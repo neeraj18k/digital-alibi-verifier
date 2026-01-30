@@ -1,0 +1,26 @@
+{
+  "name": "digital-alibi-verifier-backend",
+  "version": "1.0.0",
+  "description": "Backend for Digital Alibi Verifier",
+  "main": "server.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.6",
+    "dotenv": "^16.3.1",
+    "express": "^4.22.1",
+    "helmet": "^8.1.0",
+    "jsonwebtoken": "^9.0.3",
+    "kafkajs": "^2.2.4",
+    "mongoose": "^8.21.0",
+    "morgan": "^1.10.1",
+    "multer": "^1.4.5-lts.1",
+    "resend": "^3.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "timestamp": "2024-01-15T22:00:00Z",
+    "latitude": 40.7128,
+    "longitude": -74.0060,
+    "accuracy": 10,
+    "location": "New York, NY"
+  },
+  {
+    "timestamp": "2024-01-15T22:30:00Z",
+    "latitude": 40.7128,
+    "longitude": -74.0060,
+    "accuracy": 5,
+    "location": "New York, NY"
+  },
+  {
+    "timestamp": "2024-01-15T23:00:00Z",
+    "latitude": 40.7128,
+    "longitude": -74.0060,
+    "accuracy": 8,
+    "location": "New York, NY"
+  },
+  {
+    "timestamp": "2024-01-15T23:30:00Z",
+    "latitude": 40.7128,
+    "longitude": -74.0060,
+    "accuracy": 12,
+    "location": "New York, NY"
+  }
+]
