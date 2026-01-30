@@ -1,0 +1,54 @@
+.report-container {
+  max-width: 1000px;
+  margin: 120px auto;
+  padding: 20px;
+  color: #e6f7ff;
+}
+
+.report-title {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 40px;
+}
+
+.report-card {
+  background: rgba(15, 23, 42, 0.85);
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 25px;
+  border: 1px solid rgba(0, 234, 255, 0.2);
+}
+
+.report-timeline-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 0;
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+}
+
+.report-gallery {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.report-gallery img {
+  width: 160px;
+  border-radius: 10px;
+}
+
+.report-verdict {
+  text-align: center;
+  padding: 30px;
+  border-radius: 14px;
+  font-size: 22px;
+}
+
+.report-verdict.true {
+  background: linear-gradient(90deg, #00ff88, #00c853);
+  color: black;
+}
+
+.report-verdict.false {
+  background: linear-gradient(90deg, #ff4d4d, #b71c1c);
+}
