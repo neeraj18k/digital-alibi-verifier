@@ -1,0 +1,252 @@
+.case-container.modern {
+  max-width: 1000px;
+  margin: 120px auto;
+  padding: 20px;
+  color: #e6f7ff;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 38px;
+  font-weight: 600;
+}
+
+.card {
+  background: rgba(15, 23, 42, 0.85);
+  border: 1px solid rgba(0, 234, 255, 0.15);
+  border-radius: 14px;
+  padding: 22px;
+  margin-bottom: 25px;
+  backdrop-filter: blur(12px);
+  box-shadow: 0 0 20px rgba(0, 234, 255, 0.05);
+}
+
+.claim-text {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.timeline-item.modern-item {
+  padding: 12px;
+  margin: 10px 0;
+  border-left: 3px solid #00eaff;
+  background: rgba(255,255,255,0.03);
+  display: flex;
+  justify-content: space-between;
+  border-radius: 6px;
+}
+
+.chart-container {
+  margin-top: 25px;
+}
+
+.chart-title {
+  margin-bottom: 10px;
+  color: #00eaff;
+}
+
+.modern-upload {
+  background: rgba(255,255,255,0.03);
+  border: 1px solid rgba(0,234,255,0.2);
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+}
+
+.modern-upload input {
+  margin-top: 8px;
+  color: white;
+}
+
+.modern-upload button {
+  margin-top: 10px;
+  background: linear-gradient(90deg, #00eaff, #0077ff);
+  border: none;
+  padding: 10px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.start-btn {
+  background: #00e676 !important;
+  color: black;
+}
+
+.stop-btn {
+  background: #ff3b3b !important;
+  color: white;
+}
+
+.verdict.final {
+  border: 2px solid rgba(0,234,255,0.4);
+  text-align: center;
+}
+
+.verdict h3.true { color: #00ff88; }
+.verdict h3.false { color: #ff4d4d; }
+
+.email-btn {
+  width: 100%;
+  padding: 15px;
+  background: linear-gradient(90deg, #00eaff, #0077ff);
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.subtext {
+  font-size: 13px;
+  color: #aaa;
+}
+.timeline-modern {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.timeline-row {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  background: rgba(255,255,255,0.04);
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.timeline-time {
+  font-size: 12px;
+  color: #aaa;
+  width: 160px;
+}
+
+.timeline-badge {
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.timeline-badge.screenshot { background: #00eaff; color: black; }
+.timeline-badge.location_clue { background: #00ff88; color: black; }
+.timeline-badge.network { background: #ffaa00; color: black; }
+
+.gallery {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.gallery img {
+  width: 120px;
+  border-radius: 8px;
+}
+
+.verdict-final {
+  text-align: center;
+}
+
+.verdict-final h1.true { color: #00ff88; }
+.verdict-final h1.false { color: #ff4d4d; }
+
+/* ================= MODERN FORENSIC TIMELINE ================= */
+
+.timeline-card h2 {
+  margin-bottom: 15px;
+  color: #00eaff;
+}
+
+.timeline-modern {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 15px;
+}
+
+.timeline-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  padding: 14px;
+  border-radius: 12px;
+  background: rgba(255,255,255,0.04);
+  border-left: 4px solid #00eaff;
+  transition: 0.25s ease;
+}
+
+.timeline-row:hover {
+  background: rgba(255,255,255,0.08);
+  transform: translateX(6px);
+}
+
+.timeline-icon {
+  font-size: 20px;
+  margin-top: 3px;
+  color: #00eaff;
+}
+
+.timeline-content {
+  flex: 1;
+}
+
+.timeline-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 6px;
+}
+
+.timeline-type {
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  opacity: 0.9;
+}
+
+.timeline-time {
+  font-size: 12px;
+  opacity: 0.6;
+}
+
+.timeline-description {
+  font-size: 14px;
+  line-height: 1.5;
+  opacity: 0.9;
+}
+
+/* ===== Type Specific Colors ===== */
+.timeline-row.screenshot { border-left-color: #38bdf8; }
+.timeline-row.location_clue { border-left-color: #22c55e; }
+.timeline-row.network { border-left-color: #f59e0b; }
+.timeline-row.app_activity { border-left-color: #a855f7; }
+
+/* ================= EVIDENCE GALLERY ================= */
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 10px;
+}
+
+.gallery img {
+  width: 140px;
+  border-radius: 10px;
+  border: 1px solid rgba(255,255,255,0.1);
+  transition: 0.2s ease;
+}
+
+.gallery img:hover {
+  transform: scale(1.05);
+}
+
+/* ================= PROCESSING CARD ================= */
+
+.processing-card {
+  text-align: center;
+  font-weight: bold;
+  background: rgba(0, 234, 255, 0.08);
+  border: 1px solid rgba(0, 234, 255, 0.3);
+}

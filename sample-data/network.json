@@ -1,0 +1,32 @@
+[
+  {
+    "timestamp": "2024-01-15T22:00:00Z",
+    "type": "wifi",
+    "ssid": "HomeNetwork",
+    "connected": true
+  },
+  {
+    "timestamp": "2024-01-15T22:15:00Z",
+    "type": "data",
+    "network": "LTE",
+    "connected": true
+  },
+  {
+    "timestamp": "2024-01-15T22:30:00Z",
+    "type": "wifi",
+    "ssid": "HomeNetwork",
+    "connected": true
+  },
+  {
+    "timestamp": "2024-01-15T22:45:00Z",
+    "type": "wifi",
+    "ssid": "HomeNetwork",
+    "connected": true
+  },
+  {
+    "timestamp": "2024-01-15T23:00:00Z",
+    "type": "wifi",
+    "ssid": "HomeNetwork",
+    "connected": true
+  }
+]
