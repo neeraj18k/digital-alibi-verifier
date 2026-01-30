@@ -1,0 +1,20 @@
+.logs-card {
+  margin-top: 25px;
+}
+
+.log-item {
+  padding: 10px;
+  margin-bottom: 8px;
+  border-left: 4px solid #555;
+  background: rgba(255,255,255,0.05);
+  border-radius: 6px;
+}
+
+.log-item.info { border-color: #38bdf8; }
+.log-item.warning { border-color: #facc15; }
+.log-item.alert { border-color: #ef4444; }
+
+.log-item span {
+  font-size: 12px;
+  opacity: 0.6;
+}

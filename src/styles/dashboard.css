@@ -1,0 +1,49 @@
+.dashboard-wrapper {
+  position: relative;
+  z-index: 2;
+  padding-top: 120px;
+  max-width: 1000px;
+  margin: auto;
+  color: white;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.stats-grid {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.stat-card {
+  background: rgba(255,255,255,0.05);
+  padding: 2rem;
+  border-radius: 15px;
+  border: 1px solid cyan;
+  text-align: center;
+}
+
+.create-case-btn {
+  display: block;
+  margin: 0 auto 2rem;
+  padding: 0.8rem 2rem;
+  border-radius: 30px;
+  border: none;
+  background: cyan;
+  color: #020617;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.case-card {
+  background: rgba(255,255,255,0.04);
+  padding: 1rem;
+  border-radius: 12px;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
